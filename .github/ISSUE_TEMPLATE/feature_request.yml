@@ -1,0 +1,11 @@
+name: 💡 Una idea / An idea
+description: Algo que te gustaría que Lanvio haga / Something you'd like Lanvio to do
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: ¿Qué te gustaría? / What would you like?
+      description: Contá para qué lo usarías. / Tell us what you'd use it for.
+    validations:
+      required: true

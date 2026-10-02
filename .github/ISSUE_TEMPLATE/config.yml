@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📧 Escribir por mail / Email us
+    url: mailto:gabriel600r@gmail.com
+    about: Si preferís no abrir un ticket público / If you'd rather not open a public issue
+  - name: ⬇️ Descargar la app / Get the app
+    url: https://play.google.com/store/apps/details?id=com.egeainc.lanvio
+    about: Lanvio en Google Play / Lanvio on Google Play

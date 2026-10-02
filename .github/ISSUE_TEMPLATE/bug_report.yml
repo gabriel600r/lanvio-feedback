@@ -1,0 +1,48 @@
+name: 🐛 Algo no funciona / Something is broken
+description: Una prueba que da mal, la página que no carga, el servidor que se corta / A wrong result, the page won't load, the server stops
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por contarlo. Con los primeros datos alcanza para reproducir casi cualquier problema.
+        Thanks for reporting it. The first few fields are usually enough to reproduce any problem.
+  - type: input
+    id: version
+    attributes:
+      label: Versión de la app / App version
+      description: Ajustes, abajo de todo / Bottom of Settings (e.g. 1.0.0)
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: servidor
+    attributes:
+      label: Celular o tablet que hace de servidor / Phone or tablet running the server
+      placeholder: "Samsung S24 FE, Android 15"
+    validations:
+      required: true
+  - type: input
+    id: cliente
+    attributes:
+      label: Equipo y navegador que hizo la prueba / Device and browser that ran the test
+      placeholder: "Notebook Windows 11, Chrome"
+    validations:
+      required: false
+  - type: dropdown
+    id: conexion
+    attributes:
+      label: ¿Cómo estaban conectados? / How were they connected?
+      options:
+        - Los dos por Wi-Fi / Both on Wi-Fi
+        - Uno por cable, otro por Wi-Fi / One wired, one on Wi-Fi
+        - No sé / Not sure
+    validations:
+      required: false
+  - type: textarea
+    id: que_paso
+    attributes:
+      label: ¿Qué pasó? / What happened?
+      description: Contalo con tus palabras. Si tenés una captura, pegala acá. / In your own words. Paste a screenshot if you have one.
+    validations:
+      required: true
