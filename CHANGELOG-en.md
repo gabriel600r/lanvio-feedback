@@ -2,6 +2,12 @@
 
 What has reached the app, newest first. · [Español](CHANGELOG.md)
 
+## 1.0.1 — fixes
+
+- When the phone switches networks, the server address and QR code update by themselves. The old address used to stay, so other devices couldn't connect.
+- On Test, "Choose server" is now centered.
+- Some History and server texts that showed in the other language now follow the app language, including the date in each test's detail.
+
 ## 1.0.0 — first public release
 
 Your phone or tablet is the server, and you test from the browser of any device on your network, with nothing to install on the other end.
